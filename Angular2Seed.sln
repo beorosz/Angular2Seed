@@ -3,14 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F11D33DA-A133-4020-B068-990D566F35BC}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D24425FF-C3AD-4C6D-93F3-D86FB0988A90}"
 	ProjectSection(SolutionItems) = preProject
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Angular2Seed.FrontEnd", "src\Angular2Seed.FrontEnd\Angular2Seed.FrontEnd.xproj", "{AD1EF1FA-ABA3-43D5-92FB-64DAC899C944}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Angular2Seed.FrontEnd", "Angular2Seed.FrontEnd\Angular2Seed.FrontEnd.xproj", "{AD1EF1FA-ABA3-43D5-92FB-64DAC899C944}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,8 +23,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{AD1EF1FA-ABA3-43D5-92FB-64DAC899C944} = {F11D33DA-A133-4020-B068-990D566F35BC}
 	EndGlobalSection
 EndGlobal
